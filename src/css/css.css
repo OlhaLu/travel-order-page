@@ -264,7 +264,7 @@
 }
 
 .booking-block {
-  padding: 26px 35px 40px 35px;
+  padding: 26px 35px 0 35px;
 }
 
 .booking-list-block {
@@ -423,14 +423,14 @@
 }
 
 .guest-block {
-  padding: 26px 35px 40px 35px;
+  padding: 26px 35px 0 35px;
 }
 
 .user-info-block {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  padding: 28px 0 40px 0;
+  padding: 28px 0 17px 0;
 }
 
 .user-icon-block {
