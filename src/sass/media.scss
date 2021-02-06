@@ -1,13 +1,137 @@
 @import './variables';
 
 @media screen and (max-width: 1020px) {
+  .container {
+    display: block;
+  }
 
+  .first-container {
+    width: auto;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .id-block {
+    align-items: center;
+  }
+
+  .id-text {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .second-container {
+    width: auto;
+  }
+
+  .main-title-text {
+    font-size: 12px;
+  }
+
+  .luggage-item {
+    margin-bottom: 0;
+  }
+
+  .luggage-description-text {
+    font-size: 10px;
+    padding: 0 5px;
+  }
 }
 
 @media screen and (max-width: 780px) {
+  .block {
+    margin-bottom: 15px;
+  }
 
+  .first-container {
+    display: block;
+  }
+
+  .luggage-description-text {
+    font-size: 12px;
+  }
+
+  .luggage-description-block {
+    margin-bottom: 10px;
+  }
 }
 
-@media screen and (min-width: 320px) and (max-width: 580px) {
+@media screen and (max-width: 700px) {
+  .user-info-block {
+    display: block;
+  }
 
+  .guest-item {
+    columns: 2;
+    margin-bottom: 25px;
+  }
+
+  .user-icon {
+    display: none;
+  }
+
+  .guest-main-text {
+    color: var(--main-dark-text-color);
+    font-family: var(--roboto-bold);
+  }
+
+  .guest-item div {
+    margin-bottom: 10px;
+  }
+}
+
+
+@media screen and (min-width: 300px) and (max-width: 580px) {
+  .fly-details-block {
+    display: block;
+  }
+
+  .booking-list-block {
+    display: block;
+  }
+
+  .booking-list {
+    margin-bottom: 15px;
+  }
+
+  .booking-date {
+    background: none;
+    text-align: end;
+  }
+
+  .booking-text {
+    font-size: 14px;
+  }
+
+  .fly-dividers-block {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 515px) {
+  .guest-item {
+    columns: 1;
+  }
+
+  .user-icon {
+    display: inline;
+  }
+
+  .user-icon-block {
+    margin-bottom: 10px;
+  }
+
+  .fly-dividers {
+    height: 260px;
+  }
+
+  .fly-dividers:after {
+    top: 255px;
+  }
+
+  .fly-events-list {
+    display: grid;
+  }
 }
