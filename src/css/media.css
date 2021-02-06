@@ -68,8 +68,9 @@
   }
 
   .user-icon {
-    display: none;
+    display: inline;
   }
+
 
   .guest-main-text {
     color: var(--main-dark-text-color);
@@ -113,10 +114,6 @@
 @media screen and (max-width: 515px) {
   .guest-item {
     columns: 1;
-  }
-
-  .user-icon {
-    display: inline;
   }
 
   .user-icon-block {
