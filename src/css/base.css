@@ -1,0 +1,31 @@
+@import '../css/variables.css';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 50px 30px;
+}
+
+.block {
+  background-color: var(--white-color);
+  margin-bottom: 30px;
+}
